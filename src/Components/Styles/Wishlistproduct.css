@@ -1,0 +1,176 @@
+.wish
+{
+    width: 300px;
+    height: 490px;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    /* margin-left: 150px; */
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+}
+.wishimage
+{
+    width: 225px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+.wishname
+{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 5px;
+  font-size: 18px;
+  padding-left: 35px;
+  font-size: 16px;
+}
+.wishprice
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: -8px;
+    font-size: 14px;
+    padding-left: 35px;
+}
+.wishremove
+{
+    font-size: 12px;
+    margin-top: -16px;
+    padding-left: 150px;
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.wishadd
+{
+    height: 30px;
+    width: 250px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    font-size: 11px;
+}
+.wishliststyle
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    overflow-x: scroll;
+}
+.wishliststyle::-webkit-scrollbar
+{
+    display: none;
+}
+
+@media (max-width:1050px) {
+    .wish
+    {
+        width: 200px;
+        height: 380px;
+    }
+    .wishimage
+    {
+        width: 180px;
+        height: 280px;
+        margin-top: -15px;
+    }
+    .wishname
+    {
+        font-size: 14px;
+        margin-left: -20px;
+    }
+    .wishprice
+    {
+        font-size: 12px;
+        margin-left: -20px;
+    }
+    .wishremove
+    {
+        margin-left: -50px;
+    }
+    .wishadd
+    {
+        height: 30px;
+        width: 180px;
+    }
+}
+
+@media (max-width:900px) {
+    .wish
+    {
+        width: 170px;
+        height: 320px;
+    }
+    .wishimage
+    {
+        width: 140px;
+        height: 220px;
+        margin-top: -15px;
+    }
+    .wishname
+    {
+        font-size: 12px;
+        margin-left: -20px;
+    }
+    .wishprice
+    {
+        font-size: 10px;
+        margin-left: -20px;
+    }
+    .wishremove
+    {
+        font-size: 10px;
+        margin-left: -75px;
+    }
+    .wishadd
+    {
+        height: 30px;
+        width: 150px;
+    }
+}
+
+
+@media (max-width:700px) {
+    .wish
+    {
+        width: 200px;
+        height: 380px;
+    }
+    .wishimage
+    {
+        width: 180px;
+        height: 280px;
+        margin-top: -15px;
+    }
+    .wishname
+    {
+        font-size: 14px;
+        margin-left: -20px;
+    }
+    .wishprice
+    {
+        font-size: 12px;
+        margin-left: -20px;
+    }
+    .wishremove
+    {
+        margin-left: -50px;
+    }
+    .wishadd
+    {
+        height: 30px;
+        width: 180px;
+    }
+    .wishliststyle
+    {
+        display: flex;
+        justify-content: left;
+        padding: 0px 20px;
+        gap: 10px;
+    }
+}

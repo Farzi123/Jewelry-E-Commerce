@@ -1,0 +1,20 @@
+.update
+{
+    width: 100%;
+    background-color: black;
+    height: 100vh;
+    margin-top: -33px;
+    margin-bottom: -10px;
+
+    
+}
+.soon
+{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding-top: 300px;
+    font-size: 20px;
+}

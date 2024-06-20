@@ -1,0 +1,165 @@
+.loginbg
+{
+    background-image: url(../Assets/pisces-portrait-beautiful-woman.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+
+.login
+{
+    width: 500px;
+    height: 680px;
+    margin-top: 30px;
+    background-color: white;
+    
+}
+.head12
+{
+    padding-top: 40px;
+    padding-left: 70px;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.create
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    /* margin-top: -20px; */
+    padding-left: 70px;
+}
+span
+{
+    color: rgb(28, 118, 156);
+}
+.email
+{
+    padding-left: 70px;
+    font-size: 15px;
+}
+.emailbox
+{
+    margin-left: 70px;
+    border: none;
+    height: 30px;
+    width: 250px;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 13px;
+}
+.pass
+{
+    padding-left: 70px;
+    font-size: 15px;
+    /* padding-top: 30px; */
+}
+.passbox
+{
+    margin-left: 70px;
+    border: none;
+    height: 30px;
+    width: 250px;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 13px;
+}
+.logbutton
+{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    margin-left: 70px;
+}
+.line1
+{
+    width: 150px;
+    margin-top: 20px;
+}
+.line2
+{
+    width: 150px;
+    margin-top: 20px;
+}
+.google
+{
+    /* background-color: rgb(193, 193, 193); */
+    height: 40px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 100px;
+    border-radius: 10px;
+    border: 1px solid rgb(198, 198, 198);
+    margin-top: 20px;
+}
+.withgoogle
+{
+    padding-left: 5px;
+    margin-top: 9px;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.googleicon
+{
+    text-align: center;
+    margin-top: 7px;
+}
+.googleicon1
+{
+    text-align: center;
+    margin-top: 5px;
+}
+.loginmore
+{
+    text-align: center;
+    font-size: 14px;
+    color: rgb(11, 157, 215);
+    font-weight: 400;
+    cursor: pointer;
+    padding-top: 10px;
+}
+.signin
+{
+    font-size: 14px;
+    color: rgb(11, 157, 215);
+    padding-left: 40px;
+    padding-top: 10px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.logarrange
+{
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+}
+
+@media (max-width:700px) {
+    .logarrange
+    {
+        position: relative;
+        left: 50px;
+        bottom: 10px;
+    }
+    .google
+    {
+        margin-left: 50px;
+    }
+}

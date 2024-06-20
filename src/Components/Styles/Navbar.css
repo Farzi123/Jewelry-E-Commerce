@@ -1,0 +1,202 @@
+.head
+{
+    background-image: url('../Assets/attractive-black-haired-lady-with-pale-skin-looking-up-indoor-photo-debonair-girl-with-green-leaf-hair.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* height: 100vh; */
+}
+
+li
+{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10%;
+    height: 100px;
+}
+.navv li
+{
+    display: inline-flex;
+    padding: 0px 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.navv1 li
+{
+    display: inline-flex;
+    padding: 0px 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 5px;
+}
+ul li p
+{
+    position: relative;
+}
+li p::after
+{
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    width: 0;
+    left: 25%;
+    top: 100%;
+    border-radius: 2px;
+}
+li p:hover::after
+{
+    width: 50%;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.quote
+{
+    
+    padding-left: 210px;
+    font-size: 60px;
+    /* letter-spacing: 2px; */
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-top: 130px;
+
+}
+.quote2
+{
+    position: relative;
+    text-align: center;
+    font-size: 130px;
+    /* letter-spacing: 2px; */
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal; 
+    bottom: 35px;
+}
+.searchh
+{
+    height: 22px;
+    width: 22px;
+    margin-top: 8px;
+}
+.searchhh
+{
+    height: 20px;
+    width: 20px;
+    margin-top: 8px; 
+}
+.searchhh1
+{
+    height: 22px;
+    width: 23px;
+    margin-top: 8px;
+}
+
+@media (max-width:1050px) {
+    .quote{
+    font-size: 50px;
+    text-align: center;
+}
+    .quote2
+    {
+        font-size: 100px;
+    }
+    li
+    {
+        font-size: 17px;
+    }
+    .navv1 li
+    {
+        padding: 0px 20px;
+    }
+    nav
+    {
+        padding: 0px 10%;
+    }
+    nav h1
+    {
+        font-size: 30px;
+    }
+    .navv li
+    {
+        padding: 0 20px;
+    }
+}
+@media (max-width:900px) {
+    .quote{
+    font-size: 40px;
+}
+    .quote2
+    {
+        font-size: 70px;
+        padding-top: 10px;
+    }
+    li
+    {
+        font-size: 15px;
+    }
+    .navv1 li
+    {
+        padding: 0px 17px;
+    }
+    nav
+    {
+        padding: 0px 1%;
+    }
+    nav h1
+    {
+        font-size: 25px;
+        margin-top: -20px;
+    }
+    .navv li
+    {
+        padding: 0 17px;
+    }
+}
+
+@media (max-width:700px) {
+    .quote{
+    font-size: 30px;
+}
+    .quote2
+    {
+        font-size: 50px;
+        padding-top: 15px;
+    }
+    li
+    {
+        font-size: 13px;
+    }
+    .navv1 li
+    {
+        padding: 0px 7px;
+        display: none;
+    }
+    nav
+    {
+        padding: 0px 6%;
+    }
+    nav h1
+    {
+        font-size: 20px;
+        margin-top: -20px;
+        margin-right: 170px;
+    }
+    .navv li
+    {
+        padding: 0 12px;
+    }
+}

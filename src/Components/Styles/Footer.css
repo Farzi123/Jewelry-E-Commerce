@@ -1,0 +1,258 @@
+.footer
+{
+    width: 100%;
+    /* height: 350px; */
+    background-color: black;
+    color: white;
+}
+.footerlogo
+{
+    font-size: 30px;
+    letter-spacing: -9px;
+    padding-left: 250px;
+    padding-top: 110px;
+}
+.company
+{
+    padding-left: 150px;
+    /* margin-top: -20px; */
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.icons li
+{
+    display: inline-flex;
+    text-decoration: none;
+}
+.facebookic
+{
+    padding-left: 140px;
+}
+.otheric
+{
+    padding-left: 22px;
+}
+li, a
+{
+    text-decoration: none;
+}
+.help
+{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-left: 300px;
+    margin-top: 50px; 
+}
+.need
+{
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 25px;
+    padding-left: 300px;
+}
+.help1
+{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-left: 60px;
+    margin-top: 50px;
+}
+.need1
+{
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 25px;
+    padding-left: 60px;
+}
+.community
+{
+    font-size: 16px;
+    padding-left: 60px;
+    margin-top: 90px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.mail
+{
+    margin-left: 60px;
+    height: 30px;
+    width: 200px;
+    border: 1px solid rgba(164, 164, 164, 0.849);
+    background-color: black;
+    border-radius: 10px;
+    font-size: 12px;
+    padding-left: 20px;
+    color: white;
+}
+.emailarrow
+{
+    margin-left: -28px;
+    /* position: relative; */
+    /* top: 5px; */
+    color: rgb(186, 186, 186);
+}
+.copywrite
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    padding-top: 20px;
+    text-align: center;
+}
+.settingfooter
+{
+    display: flex;
+}
+
+@media (max-width:1050px) {
+    .help
+    {
+        padding-left: 100px;
+    }
+    .need
+    {
+        padding-left: 100px;
+    }
+    .footerlogo
+    {
+        padding-left: 150px;
+    }
+    .company
+    {
+        padding-left: 70px;
+    }
+    .facebookic
+    {
+        padding-left: 50px;
+    }
+    .copywrite
+    {
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width:900px) {
+    .help
+    {
+        padding-left: 50px;
+    }
+    .need
+    {
+        padding-left: 50px;
+    }
+    .help1
+    {
+        padding-left: 20px;
+    }
+    .need1
+    {
+        padding-left: 20px;
+    }
+    .footerlogo
+    {
+        padding-left: 120px;
+    }
+    .company
+    {
+        padding-left: 50px;
+    }
+    .facebookic
+    {
+        padding-left: 20px;
+    }
+    .copywrite
+    {
+        margin-top: 20px;
+    }
+    .community
+    {
+        padding-left: 30px;
+    }
+    .mail
+    {
+        margin-left: 30px;
+    }
+
+}
+
+@media (max-width:700px) {
+    .help
+    {
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+    .need
+    {
+        padding-left: 50px;
+    }
+    .help1
+    {
+        padding-left: 50px;
+        margin-top: 30px;
+    }
+    .need1
+    {
+        padding-left: 50px;
+    }
+    .footerlogo
+    {
+        padding-left: 120px;
+        display: none;
+    }
+    .company
+    {
+        padding-left: 50px;
+        display: none;
+    }
+    .facebookic
+    {
+        padding-left: 20px;
+        display: none;
+    }
+    .otheric
+    {
+        display: none;
+    }
+    .icons
+    {
+        display: none;
+    }
+    .copywrite
+    {
+        margin-top: 20px;
+        font-size: 10px;
+    }
+    .community
+    {
+        padding-left: 50px;
+        margin-top: 30px;
+    }
+    .mail
+    {
+        margin-left: 50px;
+    }
+    .settingfooter
+    {
+        display: block;
+    }
+    .footer
+    {
+        height: 550px;
+        margin-top: -100px;
+       
+    }
+
+}

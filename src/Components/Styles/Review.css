@@ -1,0 +1,147 @@
+.review
+{
+    width: 100%;
+    height: 600px;
+}
+.choose
+{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 250px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-top: 100px;
+    color: black;
+}
+.choose1
+{
+    font-size: 30px;
+    text-align: center;
+    /* margin-top: -33px; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    /* padding-top: -40px; */
+    margin-top: -10px;
+}
+.rimg
+{
+    width: 170px;
+    height: 160px;
+    border-radius: 150px;
+    margin-top: 20px;
+}
+.customer
+{
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* padding: 20px 100px; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 17px;
+}
+.rbio
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 250px;
+}
+.ringimg
+{
+    height: 220px;
+    width: 200px;
+    position: relative;
+    top: 170px;
+    left: -530px;
+    transform: rotate(40deg);
+}
+.arrow
+{
+   margin-top: -220px;
+   padding-left: 150px;
+}
+.arrow1
+{
+    position: relative;
+    bottom: 280px;
+    left: 1210px;
+}
+
+@media (max-width:1050px) {
+    .choose
+    {
+        font-size: 28px;
+    }
+    .choose1
+    {
+        font-size: 28px;
+    }
+    .rimg
+    {
+        width: 170px;
+        height: 160px;
+    }
+    .customer
+    {
+        font-size: 16px;
+    }
+    .rbio
+    {
+        padding: 50px 250px; 
+    }
+}
+
+@media (max-width:900px) {
+    .choose
+    {
+        font-size: 25px;
+        margin-top: 120px;
+    }
+    .choose1
+    {
+        font-size: 25px;
+    }
+    .rimg
+    {
+        width: 130px;
+        height: 120px;
+    }
+    .customer
+    {
+        font-size: 15px;
+    }
+    .rbio
+    {
+        padding: 50px 150px; 
+    }
+}
+
+@media (max-width:700px) {
+    .choose
+    {
+        font-size: 20px;
+        margin-top: 230px;
+    }
+    .choose1
+    {
+        font-size: 20px;
+    }
+    .rimg
+    {
+        width: 110px;
+        height: 100px;
+    }
+    .customer
+    {
+        font-size: 13px;
+    }
+    .rbio
+    {
+        padding: 50px 110px; 
+    }
+}
+

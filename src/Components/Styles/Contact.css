@@ -1,0 +1,39 @@
+.closeall
+{
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.contactimg
+{
+    width: 590px;
+    height: 390px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.contactus
+{
+    margin-top: 190px;
+    margin-left: 70px;
+    font-size: 45px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.phone
+{
+    margin-left: 90px;
+    margin-top: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.mail1
+{
+    margin-left: 90px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: -15px;
+}
